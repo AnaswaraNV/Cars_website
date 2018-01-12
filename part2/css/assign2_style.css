@@ -1,0 +1,189 @@
+/* colors :
+    Gold :	#FFD700
+	darkslate lue: #483D8B
+	crimson : 	#DC143C
+	purple: #800080
+	orangered: 	#FF4500
+	salmon: #FA8072
+	papayawhip: #FFEFD5
+*/
+body {
+	
+	/* The image used */
+	   background-image: url("http://zenit.senecac.on.ca/~uli705_173a14/assign2/part1/images/BackgroundImageWhiteShade");
+
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {	
+
+	text-align: center;
+	padding-top: 5px;
+	font-size: 75px;
+}
+
+h2 {	
+
+	padding-top: 5px;
+	font-size: 25px;
+	font-family: 'BookMan';
+	color: #DC143C;
+}
+
+h3 {
+	
+	color: #C71585;
+	font-family: 'Georgia';
+	font-size: 20px;
+	padding-top: 5px;
+}
+
+h4 {
+	
+	color: #C71585;
+	font-family: 'Verdana';
+	font-size: 15px;
+	padding-top: 5px;
+}
+p {
+	color:#8B0000;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	
+    color: hotpink;
+	background-color: #FFEFD5;
+}
+
+footer {
+		color: #191970;
+		font-family: 'Angkor';
+		font-size: 17px;
+		padding-top: 5px;
+}
+
+section {
+		color: #8B4513;
+		font-family: 'Angkor';
+		font-size: 17px;
+		padding-top: 5px;
+}
+
+ol {
+	color: 	#000080;
+	font-size: 20px;
+	font-family: 'Aladin';
+}
+
+  table, th, td, tr {
+	 
+					border-collapse: collapse;                   
+					border-style: groove;
+					border-width: 1px;	
+					height: 60px;
+					text-align: left;
+					color: #800080;
+					/*background-color: white;*/
+					font-size:18px;
+					font-family: 'Trebuchet MS';
+					
+ }
+ 
+ table {
+	    border-collapse: collapse;
+		border-spacing: 0;
+		width: 80%;
+		background-image: url("http://zenit.senecac.on.ca/~uli705_173a14/assign2/part1/images/BackgroundImageWhiteShade");
+		background-repeat: no-repeat;
+        background-size: cover;
+		margin: auto;
+ }
+ 
+ 
+ th, td {
+		
+		text-align: left;
+		padding: 5px;
+		  
+ }
+
+ /* id's */
+ 
+#quotes {
+	color: Maroon;
+	font-family: 'Devonshire';
+	font-size: 22px;
+	text-align: center;
+}
+
+
+#borderimage {
+				margin-left: 5px;
+				padding-top: 5px;
+				
+}
+
+#contact-container {	
+		border-style : outset;
+		width: 400px;
+		padding: 25px;
+}
+
+/* classes */
+
+.right {
+		padding: 70px;
+		padding-top: 40px;
+}
+
+.small {
+		line-height: 40%;
+}
+
+.main-heading {
+		font: Georgia;
+		font-style: italic;
+		color: 	#483D8B;
+}
+
+.icon-container { 
+		float: left; 
+		margin-left: 20px;
+}
+
+.button {
+		background: lightblue;
+		color : yellow;
+		font-size: 20px;
+		margin-right:10px;
+		font-family: 'Comic Sans MS';
+	    margin-top: 30px;
+}
+
+.form-style {
+	font-size: 15px;
+	color: #FA8072;
+}
+
+.table-image {
+	
+	margin-left: 5px;
+	padding-top: 5px;
+	height     : 300px;
+	width      : 500px;
+	
+}
+
+.table-image:hover {
+	
+	border: 1px solid #777;
+}
